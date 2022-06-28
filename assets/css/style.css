@@ -6,13 +6,31 @@ body{
     background-color: black;
 }
 
-
+.boxGif{
+    width: 230px;
+    height: 300px;
+    border-radius: 20px;
+}
 
 .fnt{
     font-family: "Zen Dots";
     font-size: 13px;
 }
 
+.boxText{
+    font-family: "Zen Dots";
+    font-size: 25px;
+    text-align: center;
+    width: 260px;
+    color: white;
+}
+.boxText2{
+    font-family: "Zen Dots";
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+    color: white;
+}
 .fnt2{
     font-family: "Zen Dots";
     font-size: 15px;
@@ -46,9 +64,6 @@ body{
     background-color: yellow;
 }
 
-.boxGif{
-    width: 150px;
-}
 
 .anchoAuto{
     width: 100%;
