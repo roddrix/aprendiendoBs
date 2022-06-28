@@ -1,10 +1,60 @@
+
+
 body{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     background-color: black;
 }
 
-.tipografia{
+
+
+.fnt{
     font-family: "Zen Dots";
+    font-size: 13px;
+}
+
+.fnt2{
+    font-family: "Zen Dots";
+    font-size: 15px;
+    color: white;
+}
+.map2{
+    display: none;
+}
+
+@media (min-width: 992px) {
+
+.fnt {
+    font-size: 15px;
+}
+
+.navbar-brand{
+    display: none;
+}
+.borderNone{
+    border: none;
+}
+.map2 {
+    display: flex;
+}
+}
+
+
+
+
+.amarillo{
+    background-color: yellow;
+}
+
+.boxGif{
+    width: 150px;
+}
+
+.anchoAuto{
+    width: 100%;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
 }
